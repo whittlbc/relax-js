@@ -1,0 +1,34 @@
+{
+  "name": "relax-js",
+  "version": "0.0.1",
+  "keywords": [
+    "relax",
+    "relax-js"
+  ],
+  "author": "Ben Whittle",
+  "license": "MIT",
+  "homepage": "https://github.com/whittlbc/relax-js#readme",
+  "description": "Node.js Client for Relax",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/whittlbc/relax-js.git"
+  },
+  "bugs": {
+    "url": "https://github.com/whittlbc/relax-js/issues"
+  },
+  "main": "relax.js",
+  "dependencies": {
+    "lodash": "3.10.1",
+    "inherits": "2.0.1",
+    "redis": "2.6.0-2",
+    "uuid": "2.0.1"
+  },
+  "devDependencies": {},
+  "engines": {
+    "node": ">= 0.10.x",
+    "npm": ">= 1.1.x"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
