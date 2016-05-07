@@ -19,7 +19,7 @@ Once you've done that, take note of the following environment variables configur
 - `RELAX_EVENTS_QUEUE`
 - `RELAX_MUTEX_KEY`
 
-If you haven't already, go ahead and create a new Node.js app. Next, install the `relax-js` node module either of the following ways:
+If you haven't already, go ahead and create a new Node.js app. Next, install the `relax-js` node module in either of the following ways:
 
 Install directly with npm:
 
@@ -38,7 +38,7 @@ $ npm install
 
 ## Usage
 
-*Before using this module, make sure your environment variables (the 5 listed above) are set and match the ones used on your Relax Go instance. If they aren't set, Relax-js will throw errors.*
+Before using this module, make sure your environment variables (the 5 listed above) are set and match the ones used on your Relax Go instance. If they aren't set, Relax-js will throw errors.
 
 **Initialize a new Relax-js instance**
 
@@ -51,7 +51,7 @@ var relax = new Relax();
 **Spin up a new bot running on Relax**
 
 You can create a new bot for your Slack team [here](https://my.slack.com/services/new/bot) if you haven't already. 
-The Slack API should also be able to provide you with your teamUid, which you will need along with your bot's token in order to spin up a bot on Relax.
+The Slack API should also be able to provide you with your team's uid, which you will need along with your bot's token in order to spin up a bot on Relax.
 
 ```js
 relax.createBot(teamUid, botToken);
