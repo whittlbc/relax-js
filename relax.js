@@ -10,7 +10,7 @@ function Relax() {
   this.eventListener = new EventListener();
 
   this.eventListener.on('event', function (data) {
-    self.emit('event', data);
+    self.emit(data.type, data);
   });
 
   this.botHelper = new BotHelper();

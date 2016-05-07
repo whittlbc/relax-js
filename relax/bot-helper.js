@@ -39,7 +39,7 @@ assign(BotHelper.prototype, {
       id: messageId,
       type: 'typing',
       channel: channelUid
-    };
+    });
 
     this.redis.publish(
       process.env.RELAX_BOTS_PUBSUB,
