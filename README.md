@@ -85,3 +85,6 @@ relax.on('message_new', function (data) {
 // Start listening for messages
 relax.start();
 ```
+
+## License
+MIT
