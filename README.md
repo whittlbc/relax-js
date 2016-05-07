@@ -4,9 +4,9 @@ Relax-js is a Node.js client for interacting with [Relax](https://github.com/zer
 
 ## Getting Started
 
-If you're just getting started with Relax and don't already have a Relax Go instance up and running, go ahead and get that set up first by following the instructions [here](https://github.com/zerobotlabs/relax). If you use Heroku, there's a "Deploy to Heroku" button to help you get up and running supper quickly. 
+If you're just getting started with Relax and don't already have a Relax Go instance up and running, go ahead and get that set up first by following the instructions [here](https://github.com/zerobotlabs/relax) (Don't worry you don't need any prior knowledge of Go). If you use Heroku, there's a "Deploy to Heroku" button to help you get up and running super quickly. 
 
-Once you've done that, take note of the following environment variables on your Relax Go instance (you'll want to use the exact same ones as environment variables on your Node.js app):
+Once you've done that, take note of the following environment variables configured on your Relax Go instance (you'll need to use the exact same ones for your Node.js app):
 
 - `REDIS_URL`
 - `RELAX_BOTS_KEY`
